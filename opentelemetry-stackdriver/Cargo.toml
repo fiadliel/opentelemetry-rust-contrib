@@ -14,9 +14,9 @@ async-trait = "0.1.48"
 gcp_auth = { version = "0.12", optional = true }
 hex = "0.4"
 http = "1"
-opentelemetry = "0.24"
-opentelemetry_sdk = { version = "0.24", features = ["trace"] }
-opentelemetry-semantic-conventions = "0.16"
+opentelemetry = "0.25"
+opentelemetry_sdk = { version = "0.25", features = ["trace"] }
+opentelemetry-semantic-conventions = "0.25"
 prost = "0.13"
 prost-types = "0.13"
 thiserror = "1.0.30"
@@ -42,4 +42,4 @@ tokio = "1"
 tonic-build = "0.12"
 walkdir = "2.3.2"
 futures-util = { version = "0.3", default-features = false }
-opentelemetry = { version = "0.24", features = ["testing"] }
+opentelemetry = { version = "0.25", features = ["testing"] }
